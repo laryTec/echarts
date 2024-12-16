@@ -1,0 +1,186 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "name": "姜子牙",
+      "symbolSize": 150,
+      "symbol": "image",
+      "image": "./images/jiangziya.png",
+      "x": 0,
+      "y": 0,
+      "value": 100,
+      "category": 0
+    },
+    {
+      "id": "1", 
+      "name": "哪吒",
+      "symbolSize": 40,
+      "symbol": "image",
+      "image": "./images/nezha.png",
+      "x": -100,
+      "y": 100,
+      "value": 80,
+      "category": 0
+    },
+    {
+      "id": "2",
+      "name": "楊戩",
+      "symbolSize": 40,
+      "symbol": "image",
+      "image": "./images/yangjen.png",
+      "x": 100,
+      "y": 100,
+      "value": 80,
+      "category": 0
+    },
+    {
+      "id": "3",
+      "name": "雷震子",
+      "symbolSize": 35,
+      "symbol": "image",
+      "image": "./images/leizhenzi.png",
+      "x": -150,
+      "y": -100,
+      "value": 70,
+      "category": 0
+    },
+    {
+      "id": "4",
+      "name": "殷洪",
+      "symbolSize": 30,
+      "symbol": "image",
+      "image": "./images/yinhong.png",
+      "x": 150,
+      "y": -100,
+      "value": 60,
+      "category": 1
+    },
+    {
+      "id": "5",
+      "name": "聞仲",
+      "symbolSize": 45,
+      "symbol": "image",
+      "image": "./images/wenzhong.png",
+      "x": -200,
+      "y": 50,
+      "value": 90,
+      "category": 1
+    },
+    {
+      "id": "6",
+      "name": "申公豹",
+      "symbolSize": 45,
+      "symbol": "image",
+      "image": "./images/shengongbao.png",
+      "x": -200,
+      "y": 0,
+      "value": 90,
+      "category": 1
+    },
+    {
+      "id": "7",
+      "name": "紂王",
+      "symbolSize": 50,
+      "symbol": "image",
+      "image": "./images/zhouwang.png",
+      "x": 0,
+      "y": 200,
+      "value": 100,
+      "category": 1
+    },
+    {
+      "id": "8",
+      "name": "妲己",
+      "symbolSize": 45,
+      "symbol": "image",
+      "image": "./images/daji.png",
+      "x": 100,
+      "y": 250,
+      "value": 90,
+      "category": 1
+    },
+    {
+      "id": "9",
+      "name": "武王",
+      "symbolSize": 45,
+      "symbol": "image",
+      "image": "./images/wuwang.png",
+      "x": 0,
+      "y": -200,
+      "value": 90,
+      "category": 0
+    }
+  ],
+
+
+  "links": [
+    {
+      "source": "0",
+      "target": "1",
+      "value": 1,
+      "name": "師徒"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "value": 1,
+      "name": "師徒"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "value": 1,
+      "name": "部下"
+    },
+    {
+      "source": "0",
+      "target": "9",
+      "value": 1,
+      "name": "輔佐"
+    },
+    {
+      "source": "7",
+      "target": "8",
+      "value": 1,
+      "name": "寵妃"
+    },
+    {
+      "source": "7",
+      "target": "5",
+      "value": 1,
+      "name": "大臣"
+    },
+    {
+      "source": "7",
+      "target": "4",
+      "value": 1,
+      "name": "皇子"
+    },
+    {
+      "source": "6",
+      "target": "0",
+      "value": 1,
+      "name": "背叛"
+    },
+    {
+      "source": "6",
+      "target": "7",
+      "value": 1,
+      "name": "效忠"
+    },
+    {
+      "source": "5",
+      "target": "6",
+      "value": 1,
+      "name": "同盟"
+    }
+  ],
+  "categories": [
+    {
+      "name": "周朝陣營"
+    },
+    {
+      "name": "商朝陣營"
+    }
+  ]
+}
